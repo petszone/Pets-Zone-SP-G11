@@ -10,7 +10,6 @@
                 <!--begin::Info-->
                 <div class="d-flex align-items-center flex-wrap mr-1">
                     <!--begin::Page Heading-->
-                    <div class="d-flex align-items-baseline flex-wrap mr-5">
                         <!--begin::Page Title-->
                         <!--end::Breadcrumb-->
                     </div>
