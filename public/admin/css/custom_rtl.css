@@ -1,0 +1,7 @@
+input, th, td, strong{
+    text-align: right;
+}
+
+td{
+    vertical-align: middle !important;
+}
