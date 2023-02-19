@@ -103,7 +103,6 @@
 
 
 @section('js')
-    {{-- سكربت بيجيب اللي قاعد ببعتوا الدكتور --}}
     <script type="text/javascript"> 
         $( window ).load(function(){
             ajax_function();
