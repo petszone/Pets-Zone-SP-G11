@@ -17,7 +17,6 @@ class ChatController extends Controller
 
     public function home()
     {
-        //بتجيب الرسائل اللي قاد ببعتها الأدمن
         $data = Chat::where('user_id', auth()->user()->id)->where('sender', 'employee')->where('user_read', '!==', 1)->get();
         foreach($data as $chat_id){
             $chat_id->update(['user_read' => 1]);
