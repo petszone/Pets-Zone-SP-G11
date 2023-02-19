@@ -261,7 +261,6 @@
 <script src="{{asset('admin/js/pages/custom/chat/chat.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.4/js/bootstrap-switch.js" data-turbolinks-track="true"></script>
     
-{{-- سكربت بيجيب اللي قاعد ببعتوا المستخدم --}}
 	<script type="text/javascript"> 
 	$( window ).load(function(){
 		ajax_function();
